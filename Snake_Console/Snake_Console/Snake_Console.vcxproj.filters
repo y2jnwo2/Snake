@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{56a7904b-4ab6-4559-aaea-3e16f08461d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{348a2f36-41b3-4af4-8359-564703c8ddbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Body.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="Part.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleEngineCore.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleMath.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleScreen.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Body.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Part.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleEngineCore.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleMath.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleScreen.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
